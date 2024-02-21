@@ -12,3 +12,8 @@ body {
     color: var(--branco);
     font-family: 'chakar petch', sans-serif;
 }
+ 
+.ativo{
+  background-color: var(--botoa-ativo);
+  border-bottom: 4px solid var(--verde);
+}
