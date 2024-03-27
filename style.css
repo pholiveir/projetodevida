@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var((0,191,255));
+    background-color: var(54,54,54);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -42,7 +42,7 @@ body {
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(--botao-inativo);
+    background-color: var(0,0,205);
     color: var(--branco);
     display: flex;
     justify-content: center;
