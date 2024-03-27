@@ -5,15 +5,15 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --verde: #0000CD;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #00FFFF;
+    --botao-inativo: rgba(192,192,192);
+    --texto-fundo: rgba(75,0,130);
 }
 
 body {
-    background-color: var(54,54,54);
+    background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -42,7 +42,7 @@ body {
 
 .botao {
     font-family: 'Chakra Petch', sans-serif;
-    background-color: var(0,0,205);
+    background-color: var(--cor-de-fundo);
     color: var(--branco);
     display: flex;
     justify-content: center;
